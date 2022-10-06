@@ -8,7 +8,7 @@ const config = require("./config.json");
 
 x.handleinteraction(client);
 client.on("ready", () => {
-  console.log("Ready");
+  console.log("Your Bot is online and ready for use!✅");
 });
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
